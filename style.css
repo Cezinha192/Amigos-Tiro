@@ -1,0 +1,169 @@
+body{
+	font-family: 'Playfair Display', serif;
+}
+
+header{
+	background: #000000;
+	padding: 20px 0;
+}
+
+main{
+	background: #766a45;
+}
+
+.caixa{
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+.logo {
+    width: 130px;
+}
+
+nav{
+	position: absolute;
+	top: 65px;
+	right: 0;
+}
+
+nav li{
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #847d60;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	color: #475f24;
+
+}
+
+body{
+	background: #cccccc;
+	margin: auto;
+}
+
+.banner{
+	width: 100%;
+	padding: 10px 0;
+
+}
+
+.titulo-centralizado{
+	padding: 1em;
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+	
+
+}
+
+p{
+	text-align: center;
+	font-size: 22px;
+	padding: 10px;
+}
+
+p strong{
+	font-weight: bold;
+}
+
+p em{
+	font-style: italic;
+}
+
+footer{
+	text-align: center;
+	background: #000;
+	background: url("11rodape2.jpg") 50%;
+}
+
+.logo-rodape{
+	border-radius: 50%;
+	width: 75px;
+	padding-top: 10px;
+}
+footer p{
+	color: whitesmok  
+}
+
+.copyright {
+    color: #cbc1a3;
+    font-size: 13px;
+    
+}
+
+/* Pag. Entegrantes*/
+
+.principal{
+	background: #766a45;
+	padding: 10px;
+}
+
+.box-equipe{
+	margin: 10px auto;
+	padding:  3em 0;
+	border: 5px solid #475f24;
+	text-align: center;
+}
+
+.titulo-equipe{
+	text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px;
+    padding: 10px;
+}
+
+.operadores{
+	margin: 10px;
+	width: 40%; 
+	display: inline-block;
+}
+
+.descriçao li{
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	border: 2px solid #475f24;
+    width: 100%;
+
+}
+
+/* Galeria Fotos*/
+
+.galeria-conteine{
+	display: flex;
+}
+
+.galeria-fotos{
+	width: 340px;
+	height: 340px;
+}
+
+.galeria-fotos img{
+	width: 100%;
+	height: 100%;
+}
+
+@media screen and (max-width: 480px){
+	.caixa, .caixa1{
+			width:auto;
+	}
+
+	h1{
+		text-align: center;
+	}
+
+	nav{
+		position: static;
+	}
+}
